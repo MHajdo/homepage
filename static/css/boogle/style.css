@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    height: 5%;
+}
+
+.gmail, .slike, .mreza, .emoji {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    width: 45px;
+    height: 50px;
+    align-items: center;
+}
+
+.gmail, .slike {
+    padding-top: 17.5px;
+}
+
+.mrezaimg {
+    height: 24px;
+    width: 24px;
+}
+
+.emojiimg {
+    height: 32px;
+    width: 32px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100%-560px);
+}
+
+.boogleimage {
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    width: 272px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+
+.search {
+    width: 580px;
+    height: 50px;
+    border-radius: 25px;
+    border-width: thin;
+    padding: 0 30px;
+}
+
+.iskanje {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    width: 100%;
+}
+
+
+.iskanjegoogle, .kliknasreco {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #dadce0;
+    gap: 10px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.f-levo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.f-desno {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.predstavitev, .oglasevanje, .posel, .kakodeluje {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    color: #70757a;
+    padding: 0px 15px;
+}
+
+.zasebnost, .pogoji, .nastavitve {
+    color: #70757a;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    padding: 0px 15px;
+}

@@ -1,0 +1,122 @@
+* {
+    background-color: grey;
+    font-family: sans-serif, verdana;
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.central {
+    display: flex;
+    flex-direction: row;
+}
+
+.l-sidebar, .r-sidebar {
+    width: 20%;
+}
+
+.header {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+img {
+    display: block;
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    margin: auto;
+    border: 3px solid black;
+}
+
+figcaption {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+}
+
+.l-sidebar {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.l-sidebar h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.l-sidebar ul {
+    font-size: 3rem;
+}
+
+ul > li {
+    font-style: italic;
+    padding: 5px;
+}
+
+.main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.main p {
+    font-size: 1.7rem;
+}
+
+.r-sidebar {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.r-sidebar h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.r-sidebar p {
+    font-size: 3rem;
+    padding-left: 30px;
+}
+
+.r-sidebar ul {
+    font-size: 3rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid black;
+    font-size: 3rem;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+a {
+    font-size: 18.75px;
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    color: white;
+}
+
+a:link {
+    color: red;
+}
