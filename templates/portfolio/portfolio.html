@@ -1,22 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <script src="https://kit.fontawesome.com/5c72f2b4b2.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="static/css/style.css">
-</head>
-<body>
-<header>
-    <nav id="navbar" class="navbar">
-        <ul>
-            <li><a href="/">About</a></li>
-            <li><a href="/portfolio">Work</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+{% extends "base.html" %}
+
+{% block title %}Portfolio{% endblock title %}
+
+{% block body %}
 <section id="projects" class="project-section">
     <h2>These are some of my projects</h2>
     <div class="project-border">
@@ -49,5 +35,4 @@
         </a>
     </div>
 </section>
-</body>
-</html>
+{% endblock body %}

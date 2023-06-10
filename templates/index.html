@@ -1,25 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <script src="https://kit.fontawesome.com/5c72f2b4b2.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8">
-    <title>Welcome to my page</title>
-    <link rel="stylesheet" href="static/css/style.css">
-</head>
-<body>
-<header>
-    <nav id="navbar" class="navbar">
-        <ul>
-            <li><a href="/">About</a></li>
-            <li><a href="/portfolio">Work</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+{% extends "base.html" %}
+
+{% block body %}
+
 <section id="welcome-section" class="welcome-section">
     <h1>Hello, I am Matej</h1>
     <p>a web developer</p>
 </section>
-</body>
-</html>
+
+{% endblock body %}
