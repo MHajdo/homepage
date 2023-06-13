@@ -9,7 +9,7 @@ def index():
 
 
 @app.route("/contact")
-def about_me():
+def contact():
     return render_template("contact.html")
 
 
